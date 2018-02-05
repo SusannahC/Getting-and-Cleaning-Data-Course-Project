@@ -1,17 +1,19 @@
-All variables in the 'Tidy Dataset.txt' file are listed below
+All variables in the `Tidy Dataset.txt` file are listed below
 
 ## Identifiers
-* subject
+* `subject`
+	
 	Subject identifier, integer, ranges from 1 to 30.
 
-* activity
+* `activity`
+	
 	Activity identifier, string with 6 possible values:
-        + WALKING: subject was walking
-        + WALKING_UPSTAIRS: subject was walking upstairs
-        + WALKING_DOWNSTAIRS: subject was walking downstairs
-        + SITTING: subject was sitting
-        + STANDING: subject was standing
-        + LAYING: subject was laying
+        - WALKING: subject was walking
+        - WALKING_UPSTAIRS: subject was walking upstairs
+        - WALKING_DOWNSTAIRS: subject was walking downstairs
+        - SITTING: subject was sitting
+        - STANDING: subject was standing
+        - LAYING: subject was laying
 
 ## Features
 
@@ -24,7 +26,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals.
 These signals were used to estimate variables of the feature vector for each pattern:  
 '_XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-### Time Domain Signals
+#### Time Domain Signals
 * time_Domain_Body_Accelerometer_mean_X
 * time_Domain_Body_Accelerometer_mean_Y
 * time_Domain_Body_Accelerometer_mean_Z
@@ -67,7 +69,7 @@ These signals were used to estimate variables of the feature vector for each pat
 * time_Domain_Body_Gyroscope_Jerk_Magnitude_std
 
 
-### Frequency Domain Signals
+#### Frequency Domain Signals
 * freq_Domain_Body_Accelerometer_mean_X
 * freq_Domain_Body_Accelerometer_mean_Y
 * freq_Domain_Body_Accelerometer_mean_Z
